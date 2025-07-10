@@ -228,7 +228,6 @@ Finally, check the *Restart Jenkins when installation is complete and no jobs ar
 
 Go to <http://localhost:9001/gogsadmin> and create a Gogs repository using the + dropdown on the top right corner. Call it `mern_app` and hit the *Create Repository* button.
 
-To use the pipeline you need to clone the Gogs `mern_app` repository created above into a folder in your computer that must reside outside the folder where you cloned this [MERN_app_CI-CD_pipeline](https://github.com/ptavaressilva/MERN_app_CI-CD_pipeline) project.
 
 ```bash
 cd ..
@@ -243,7 +242,6 @@ As the Gogs repository is empty, you will get a warning, but it's ok.
 warning: You appear to have cloned an empty repository.
 ```
 
-Copy the contents of the [MERN_app_CI-CD_pipeline](https://github.com/ptavaressilva/MERN_app_CI-CD_pipeline) to the *mern_app* folder you created above, but **be carefull not to copy the  hidden .git folder** (if you copy from a local clone of this repo).
 
 ### Step 6 - Configure the pipeline
 
